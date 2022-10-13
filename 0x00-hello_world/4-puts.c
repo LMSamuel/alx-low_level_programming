@@ -3,7 +3,7 @@
 int main(void)
 {
 	/**
-	 *Description: A program that Programming 
+	 *Description: A program that Programming
 	 is like building a multilingual puzzle
 	 *
 	 */
