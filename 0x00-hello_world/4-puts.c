@@ -3,6 +3,8 @@
 int main(void)
 {
 	/**
+	 * main-entails puts
+	 * @parameter: is astring
 	 *Description: A program that Programming
 	 is like building a multilingual puzzle
 	 *
