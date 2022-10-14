@@ -14,6 +14,7 @@ int main(void)
 {
 	int result = 48;
 	int result1 = 48;
+
 	while (result < 58)
 	{
 		while (result1 < 58)
@@ -28,8 +29,8 @@ int main(void)
 			}
 		result1++;
 		}
-	}
 	result++;
+	}
 	putchar('\n');
 	return (0);
 }
