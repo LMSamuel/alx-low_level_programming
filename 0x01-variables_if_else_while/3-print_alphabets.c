@@ -20,7 +20,7 @@ int main(void)
 		result++;
 	}
 
-	for (result = 'A'; result <= 'Z'; result++ )
+	for (result = 'A'; result <= 'Z'; result++)
 		putchar(result);
 	putchar('\n');
 	return (0);
