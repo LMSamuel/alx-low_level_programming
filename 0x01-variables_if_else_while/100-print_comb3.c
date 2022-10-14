@@ -13,10 +13,11 @@
 int main(void)
 {
 	int result = 48;
-	int result1 = 48;
 
 	while (result < 58)
 	{
+		int result1 = 48; 
+
 		while (result1 < 58)
 		{
 		
