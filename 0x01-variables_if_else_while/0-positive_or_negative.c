@@ -3,13 +3,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- *
- *  * main - Entry point of code and printf
- *
- *   * Return: Always 0 (Success)
- *
- *    */
+/*
+ * main- code entry
+ * Return 0 on success
+ */
 
 int main(void)
 {
