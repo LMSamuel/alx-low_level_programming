@@ -1,37 +1,32 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <time.h>
-#include <ctype.h>
 
 /**
- * main - prints the last digit of the random
- * number stored in the variable n
- * Return: Always 0 (Succes)
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 
 int main(void)
 {
-	int result = 48;
+	int n, m;
 
-	while (result < 58)
+	for (n = 48; n <= 56; n++)
 	{
-		int result1 = 48; 
-
-		while (result1 < 58)
-		{
-		
-			putchar(result);
-			putchar(result1);
-			if (result != 57 || result1 != 57)
+		for (m = 49; m <= 57; m++)
 			{
-				putchar(',');
-				putchar(' ');
+				if (m > n)
+					{
+						putchar(n);
+						putchar(m);
+						if (n != 56 || m != 57)
+						{
+							putchar(',');
+							putchar(' ');
+						}
+		          		}
 			}
-		result1++;
-		}
-	result++;
+
 	}
 	putchar('\n');
 	return (0);
+
 }
