@@ -4,8 +4,8 @@
 #include <time.h>
 
 /*
- * main- code entry
- * Return 0 on success
+ * main - code entry for the code
+ * Return- return 0 on success
  */
 
 int main(void)
