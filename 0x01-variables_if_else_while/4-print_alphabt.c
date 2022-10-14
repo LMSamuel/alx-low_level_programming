@@ -16,13 +16,12 @@ int main(void)
 
 	while (result <= 'z')
 	{
-		if (result != 'e' && results != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
 			putchar(result);
 		}
 		result++;
 	}
-
 	putchar('\n');
 	return (0);
 }
