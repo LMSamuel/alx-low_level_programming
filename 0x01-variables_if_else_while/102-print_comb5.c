@@ -1,36 +1,31 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <time.h>
-#include <ctype.h>
+#include <studio.h>
 
-/**
- * main - prints the last digit of the random
- * number stored in the variable n
- * Return: Always 0 (Succes)
+/*
+ * main- entry point
+ * Return- o always
  */
-
 int main(void)
 {
-	int result = 48;
+	int i, j;
 
-	while (result < 58)
+	for (i = 0; i < 100; i++)
 	{
-		int result1 = 48; 
-
-		while (result1 < 58)
+		for (j = 0; j < 100; j++)
 		{
-		
-			putchar(result);
-			putchar(result1);
-			if (result != 57 || result1 != 57)
+			if (i < j)
 			{
-				putchar(',');
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
 				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-		result1++;
 		}
-	result++;
 	}
 	putchar('\n');
 	return (0);
