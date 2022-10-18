@@ -10,7 +10,7 @@ int main(void)
 	char word[] = "_putchar";
 	int i = 0;
 
-	while (i < word.size())
+	while (i < 8)
 	{
 		_putchar(word[i]);
 	}
