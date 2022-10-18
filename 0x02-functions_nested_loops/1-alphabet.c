@@ -1,7 +1,7 @@
-#include "main.h" 
+#include "main.h"
 
 /**
- * main -prints a-z
+ * main- prints a-z
  * number stored in the variable n
  * Return: Always 0 (Succes)
  */
@@ -17,5 +17,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
 }
