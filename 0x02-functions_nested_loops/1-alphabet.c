@@ -1,9 +1,8 @@
 #include "main.h"
 
-/**
- * main- prints a-z
- * number stored in the variable n
- * Return: Always 0 (Succes)
+/*
+ * print_alphabet.
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
