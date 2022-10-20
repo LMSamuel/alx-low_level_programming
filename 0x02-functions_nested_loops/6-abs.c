@@ -2,7 +2,7 @@
 
 /**
  * _abs- print 1 if alpha else print 0.
- * @n- char to check
+ * @n: char to check
  * Return: Always 1 else 0.
  */
 int _abs(int n)
