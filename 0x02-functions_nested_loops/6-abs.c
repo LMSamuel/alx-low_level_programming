@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio>
 
 /**
  * main- print 1 if alpha else print 0.
