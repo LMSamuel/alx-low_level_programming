@@ -5,7 +5,7 @@
  * @n- char to check
  * Return: Always 1 else 0.
  */
-in _abs(int n)
+int _abs(int n)
 {
 	if(n >= 0)
 	{
