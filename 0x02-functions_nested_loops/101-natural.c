@@ -12,12 +12,12 @@ int main(void)
 	sum2 = 0;
 	sum = 0;
 
-	for(int i = 0 ; i < 1024 ; i++)
+	for (i = 0 ; i < 1024 ; i++)
 	{
-		if((i % 3) == 0)
+		if ((i % 3) == 0)
 		{
 			sum1 =+ i;
-		} else if((i % 5) == 0)
+		} else if ((i % 5) == 0)
 		{
 			sum2 =+ i;
 		}
