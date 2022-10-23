@@ -17,14 +17,14 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			sum1 =+ i;
+			sum1 += i;
 		} else if ((i % 5) == 0)
 		{
-			sum2 =+ i;
+			sum2 += i;
 		}
 
 	}
 		sum  = sum1 + sum2;
-		printf("%lu\n",sum);
+		printf("%lu\n", sum);
 		return (0);
 }
