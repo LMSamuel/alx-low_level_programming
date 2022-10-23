@@ -1,7 +1,7 @@
  #include "main.h"
 
-/*
- * main- test fnx
+/**
+ * main- check pos and neg
  * Return: 0 on success
  */
 int main(void)
