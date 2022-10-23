@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-	long int i, j, k, next;
+	int i;
+	
+	long int j, k, next, sum;
 
 	j = 1;
 
 	k = 2;
 
-	for (i = 1 ; i <= 50 ; ++i)
-	{
-		if (j != 20365011074)
-		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n, ", j);
+	sum = 0;
 
+	for (i = 1 ; i <= 33; ++i)
+	{
+		if (j != 4000000 && (j % 2) == 0)
+		{
+			sum += j;
 		}
 		next = j + k;
 		j = k;
