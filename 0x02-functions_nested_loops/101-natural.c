@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sdtio.h>
+#include <stdio.h>
 /**
  * main - prints the n times table, starting with
  * Return: number of the times table
