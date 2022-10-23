@@ -22,9 +22,9 @@ int main(void)
 		{
 			sum2 =+ i;
 		}
+
+	}
 		sum  = sum1 + sum2;
 		printf("%lu\n",sum);
 		return (0);
-
-	}
 }
