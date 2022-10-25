@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers-  checks (0-9)
+ * print_numbers-checks (0-9)
  */
 void print_numbers(void)
 {
