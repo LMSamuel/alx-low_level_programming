@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * print_numbers- checks (0-9)
+ * mul- checks (0-9)
+ * @a: int to work on
+ * @b: int to work
+ * Return: return if true
  */
-void print_numbers(void)
+int mul(int a, int b)
 {
-	int i;
+	int results;
 
-	for (i = 0; i<10; i++)
-	{
-		_putchar(i + '0');
-	}
-	_putchar('\n');
+	c = a * b;
+
+	return (results);
 }
